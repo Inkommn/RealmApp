@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		1D68F42A2A8A66450004D6B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68F4292A8A66450004D6B9 /* AppDelegate.swift */; };
 		1D68F42C2A8A66450004D6B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68F42B2A8A66450004D6B9 /* SceneDelegate.swift */; };
-		1D68F42E2A8A66450004D6B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68F42D2A8A66450004D6B9 /* ViewController.swift */; };
 		1D68F4312A8A66450004D6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D68F42F2A8A66450004D6B9 /* Main.storyboard */; };
 		1D68F4332A8A66450004D6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D68F4322A8A66450004D6B9 /* Assets.xcassets */; };
 		1D68F4362A8A66450004D6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D68F4342A8A66450004D6B9 /* LaunchScreen.storyboard */; };
+		1D68F4442A8A671E0004D6B9 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68F4432A8A671E0004D6B9 /* TaskListViewController.swift */; };
+		1D68F4462A8A672E0004D6B9 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68F4452A8A672E0004D6B9 /* TasksViewController.swift */; };
+		1D68F4482A8A67400004D6B9 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68F4472A8A67400004D6B9 /* AlertController.swift */; };
+		1D68F44A2A8A674E0004D6B9 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68F4492A8A674E0004D6B9 /* TaskList.swift */; };
+		1D68F44C2A8A675A0004D6B9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68F44B2A8A675A0004D6B9 /* DataManager.swift */; };
+		1D68F44E2A8A67680004D6B9 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68F44D2A8A67680004D6B9 /* StorageManager.swift */; };
+		1D68F4512A8A69B30004D6B9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1D68F4502A8A69B30004D6B9 /* Realm */; };
+		1D68F4532A8A69B30004D6B9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1D68F4522A8A69B30004D6B9 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D68F4262A8A66450004D6B9 /* RealmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D68F4292A8A66450004D6B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D68F42B2A8A66450004D6B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1D68F42D2A8A66450004D6B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D68F4302A8A66450004D6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D68F4322A8A66450004D6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D68F4352A8A66450004D6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D68F4372A8A66450004D6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D68F4432A8A671E0004D6B9 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		1D68F4452A8A672E0004D6B9 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		1D68F4472A8A67400004D6B9 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		1D68F4492A8A674E0004D6B9 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		1D68F44B2A8A675A0004D6B9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1D68F44D2A8A67680004D6B9 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D68F4532A8A69B30004D6B9 /* RealmSwift in Frameworks */,
+				1D68F4512A8A69B30004D6B9 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,68 @@
 		1D68F4282A8A66450004D6B9 /* RealmApp */ = {
 			isa = PBXGroup;
 			children = (
-				1D68F4292A8A66450004D6B9 /* AppDelegate.swift */,
-				1D68F42B2A8A66450004D6B9 /* SceneDelegate.swift */,
-				1D68F42D2A8A66450004D6B9 /* ViewController.swift */,
-				1D68F42F2A8A66450004D6B9 /* Main.storyboard */,
-				1D68F4322A8A66450004D6B9 /* Assets.xcassets */,
-				1D68F4342A8A66450004D6B9 /* LaunchScreen.storyboard */,
-				1D68F4372A8A66450004D6B9 /* Info.plist */,
+				1D68F43D2A8A667A0004D6B9 /* ViewControllers */,
+				1D68F4422A8A66C40004D6B9 /* Resources */,
+				1D68F4412A8A66AA0004D6B9 /* App */,
+				1D68F4402A8A66A30004D6B9 /* Storyboard */,
+				1D68F43F2A8A669A0004D6B9 /* Services */,
+				1D68F43E2A8A66880004D6B9 /* Models */,
 			);
 			path = RealmApp;
+			sourceTree = "<group>";
+		};
+		1D68F43D2A8A667A0004D6B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D68F4432A8A671E0004D6B9 /* TaskListViewController.swift */,
+				1D68F4452A8A672E0004D6B9 /* TasksViewController.swift */,
+				1D68F4472A8A67400004D6B9 /* AlertController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1D68F43E2A8A66880004D6B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D68F4492A8A674E0004D6B9 /* TaskList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D68F43F2A8A669A0004D6B9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D68F44B2A8A675A0004D6B9 /* DataManager.swift */,
+				1D68F44D2A8A67680004D6B9 /* StorageManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1D68F4402A8A66A30004D6B9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1D68F42F2A8A66450004D6B9 /* Main.storyboard */,
+				1D68F4342A8A66450004D6B9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1D68F4412A8A66AA0004D6B9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1D68F4292A8A66450004D6B9 /* AppDelegate.swift */,
+				1D68F42B2A8A66450004D6B9 /* SceneDelegate.swift */,
+				1D68F4372A8A66450004D6B9 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1D68F4422A8A66C40004D6B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D68F4322A8A66450004D6B9 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +150,10 @@
 			dependencies = (
 			);
 			name = RealmApp;
+			packageProductDependencies = (
+				1D68F4502A8A69B30004D6B9 /* Realm */,
+				1D68F4522A8A69B30004D6B9 /* RealmSwift */,
+			);
 			productName = RealmApp;
 			productReference = 1D68F4262A8A66450004D6B9 /* RealmApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +182,9 @@
 				Base,
 			);
 			mainGroup = 1D68F41D2A8A66450004D6B9;
+			packageReferences = (
+				1D68F44F2A8A69B30004D6B9 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 1D68F4272A8A66450004D6B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D68F42E2A8A66450004D6B9 /* ViewController.swift in Sources */,
+				1D68F44A2A8A674E0004D6B9 /* TaskList.swift in Sources */,
 				1D68F42A2A8A66450004D6B9 /* AppDelegate.swift in Sources */,
+				1D68F4482A8A67400004D6B9 /* AlertController.swift in Sources */,
+				1D68F44C2A8A675A0004D6B9 /* DataManager.swift in Sources */,
+				1D68F4462A8A672E0004D6B9 /* TasksViewController.swift in Sources */,
 				1D68F42C2A8A66450004D6B9 /* SceneDelegate.swift in Sources */,
+				1D68F4442A8A671E0004D6B9 /* TaskListViewController.swift in Sources */,
+				1D68F44E2A8A67680004D6B9 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +368,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YH8FGYJT9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RealmApp/Info.plist;
+				INFOPLIST_FILE = RealmApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +382,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Hi.RealmApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +400,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YH8FGYJT9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RealmApp/Info.plist;
+				INFOPLIST_FILE = RealmApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +414,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Hi.RealmApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +445,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D68F44F2A8A69B30004D6B9 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D68F4502A8A69B30004D6B9 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D68F44F2A8A69B30004D6B9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		1D68F4522A8A69B30004D6B9 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D68F44F2A8A69B30004D6B9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D68F41E2A8A66450004D6B9 /* Project object */;
 }
